@@ -1,5 +1,6 @@
 {
   "name": "Devise and CanCan",
+  "description": "authentication and authorization",
   "sections": [
     {
       "section": "slides"
