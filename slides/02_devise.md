@@ -34,7 +34,10 @@ Name your model whatever you please. It will be created if it is not found.
 
 
 !SLIDE incremental
+.notes Force Devise to reload `@current_user` in actions where the current user may be updated
 # Advanced Devise #
 
 * Subclass `Devise::SessionsController` to override default behavior
 * Customize views by running `$ rails generate devise:views`
+* Override `ApplicationController#current_user` to return an anonymous user instead of `nil`
+* Set `@current_user` to `nil` to reload current user
