@@ -2,7 +2,7 @@
 .notes Initially all logic is placed in an `#initialize` method, however there is nothing stopping you from splitting permissions across many methods or even files
 # Setup CanCan #
 
-## Initialize permissions model
+## Initialize permissions model ##
     @@@ bash
     $ rails generate cancan:ability
 
@@ -14,7 +14,7 @@ This creates a mostly empty model called `Ability`. Customize `initialize` to de
 .notes Catch `CanCan::AccessDenied` to handle lack of permission
 # Using CanCan #
 
-## Helper methods for controllers and views
+## Helper methods for controllers and views ##
     @@@ ruby
     load_and_authorize_resource
     authorize_resource
