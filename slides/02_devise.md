@@ -3,7 +3,7 @@
 # Setup Devise #
 
 ## Initialize and create or modify a model ##
-    @@@ bash
+    @@@ sh
     $ rails generate devise:install
     $ rails generate devise user
 

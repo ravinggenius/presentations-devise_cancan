@@ -3,7 +3,7 @@
 # Setup CanCan #
 
 ## Initialize permissions model ##
-    @@@ bash
+    @@@ sh
     $ rails generate cancan:ability
 
 This creates a mostly empty model called `Ability`. Customize `initialize` to define permissions.
