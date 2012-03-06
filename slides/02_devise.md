@@ -27,7 +27,7 @@ Name your model whatever you please. It will be created if it is not found.
     user_signed_in?
     user_session
 
-## ... and tests ##
+## ... and *controller* tests ##
     @@@ ruby
     sign_in
     sign_out
